@@ -8,9 +8,8 @@ CXX			= c++
 CXXFLAGS	= -Wall -Wextra -Werror -g -std=c++17 $(INCLUDES) 
 
 SRCS_FILES 	= Zombie.cpp \
-			newZombie.cpp \
-			randomChump.cpp \
 			main.cpp
+		
 
 CPP_FILES 	= $(addprefix $(SRC)/, $(SRCS_FILES))
 OBJS		= $(CPP_FILES:%.cpp=$(BUILD_DIR)/%.o)
