@@ -6,7 +6,7 @@
 /*   By: ybutkov <ybutkov@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/01 16:07:08 by ybutkov           #+#    #+#             */
-/*   Updated: 2026/02/01 21:28:25 by ybutkov          ###   ########.fr       */
+/*   Updated: 2026/02/09 16:16:33 by ybutkov          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,27 +25,29 @@ int main(void)
 
     std::cout << L << W20 << "The memory addresses:" << std::endl;
     std::cout << L << W20 << "simpleString - " << &simpleString << std::endl;
-    std::cout << L << W20 << "stringPTR - " << stringPTR << std::endl;
-    std::cout << L << W20 << "stringREF - " << &stringREF << std::endl;
-
-    std::cout << L << W20 << "\nThe value of the strings:" << std::endl;
-    std::cout << L << W20 << "simpleString - " << simpleString << std::endl;
-    std::cout << L << W20 << "stringPTR - " << *stringPTR << std::endl;
-    std::cout << L << W20 << "stringREF - " << stringREF << std::endl;
-
-    stringREF = str2;
-    
-    std::cout << L << W20 << "\nThe memory addresses:" << std::endl;
-    std::cout << L << W20 << "simpleString - " << &simpleString << std::endl;
     std::cout << L << W20 << "str2: " << &str2 << std::endl;
     std::cout << L << W20 << "stringPTR - " << stringPTR << std::endl;
     std::cout << L << W20 << "stringREF - " << &stringREF << std::endl;
 
     std::cout << L << W20 << "\nThe value of the strings:" << std::endl;
     std::cout << L << W20 << "simpleString - " << simpleString << std::endl;
-    std::cout << L << W20 << "str2 - " << str2 << std::endl;
+    std::cout << L << W20 << "str2: " << str2 << std::endl;
     std::cout << L << W20 << "stringPTR - " << *stringPTR << std::endl;
     std::cout << L << W20 << "stringREF - " << stringREF << std::endl;
+
+    // stringREF = str2;
+    
+    // std::cout << L << W20 << "\nThe memory addresses:" << std::endl;
+    // std::cout << L << W20 << "simpleString - " << &simpleString << std::endl;
+    // std::cout << L << W20 << "str2: " << &str2 << std::endl;
+    // std::cout << L << W20 << "stringPTR - " << stringPTR << std::endl;
+    // std::cout << L << W20 << "stringREF - " << &stringREF << std::endl;
+
+    // std::cout << L << W20 << "\nThe value of the strings:" << std::endl;
+    // std::cout << L << W20 << "simpleString - " << simpleString << std::endl;
+    // std::cout << L << W20 << "str2 - " << str2 << std::endl;
+    // std::cout << L << W20 << "stringPTR - " << *stringPTR << std::endl;
+    // std::cout << L << W20 << "stringREF - " << stringREF << std::endl;
     
     return 0;
 }

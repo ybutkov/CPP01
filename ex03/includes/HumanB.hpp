@@ -6,7 +6,7 @@
 /*   By: ybutkov <ybutkov@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/01 21:41:37 by ybutkov           #+#    #+#             */
-/*   Updated: 2026/02/01 22:46:34 by ybutkov          ###   ########.fr       */
+/*   Updated: 2026/02/09 16:21:46 by ybutkov          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 
 # include "Weapon.hpp"
 # include <iostream>
+# include <string>
 
 class HumanB
 {
@@ -23,8 +24,8 @@ class HumanB
 
   public:
 	HumanB() = default;
-	HumanB(const std::string& name)
-		: name(name), weapon(nullptr){};
+	HumanB(const std::string& name, Weapon *weapon=nullptr)
+		: name(name), weapon(weapon){};
 	~HumanB() = default;
 	void setWeapon(const Weapon& weapon);
 	void attack() const;

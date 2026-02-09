@@ -6,7 +6,7 @@
 /*   By: ybutkov <ybutkov@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/01 21:37:08 by ybutkov           #+#    #+#             */
-/*   Updated: 2026/02/01 22:46:26 by ybutkov          ###   ########.fr       */
+/*   Updated: 2026/02/09 16:18:17 by ybutkov          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 
 # include "Weapon.hpp"
 # include <iostream>
+# include <string>
 
 class HumanA
 {

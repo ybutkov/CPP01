@@ -6,7 +6,7 @@
 /*   By: ybutkov <ybutkov@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/01 21:33:43 by ybutkov           #+#    #+#             */
-/*   Updated: 2026/02/01 22:43:09 by ybutkov          ###   ########.fr       */
+/*   Updated: 2026/02/09 16:18:26 by ybutkov          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 # define WEAPON_HPP
 
 #include <iostream>
+# include <string>
 
 class Weapon
 {
