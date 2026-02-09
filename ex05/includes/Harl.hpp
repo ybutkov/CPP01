@@ -6,7 +6,7 @@
 /*   By: ybutkov <ybutkov@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/02 18:50:36 by ybutkov           #+#    #+#             */
-/*   Updated: 2026/02/02 19:46:19 by ybutkov          ###   ########.fr       */
+/*   Updated: 2026/02/09 17:18:30 by ybutkov          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 # define HARL_HPP
 
 # include <iostream>
+# include <string>
 
 class Harl
 {

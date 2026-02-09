@@ -6,7 +6,7 @@
 /*   By: ybutkov <ybutkov@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/02 15:11:39 by ybutkov           #+#    #+#             */
-/*   Updated: 2026/02/02 18:13:56 by ybutkov          ###   ########.fr       */
+/*   Updated: 2026/02/09 16:32:49 by ybutkov          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,9 +17,9 @@
 
 namespace
 {
-std::string replaceString(const std::string &str,
-							const std::string &findStr,
-							const std::string &replace)
+std::string replaceString(const std::string& str,
+							const std::string& findStr,
+							const std::string& replace)
 {
 	if (findStr.empty() || findStr.compare(replace) == 0)
 		return (str);
