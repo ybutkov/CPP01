@@ -6,7 +6,7 @@
 /*   By: ybutkov <ybutkov@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/01 15:03:29 by ybutkov           #+#    #+#             */
-/*   Updated: 2026/02/08 23:13:10 by ybutkov          ###   ########.fr       */
+/*   Updated: 2026/02/09 16:04:53 by ybutkov          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ Zombie* newZombie(std::string name)
     return new Zombie(name);
 }
 
-} // endnamespce
+} // end namespace
 
 int main(void)
 {

@@ -6,7 +6,7 @@
 /*   By: ybutkov <ybutkov@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/01 15:03:37 by ybutkov           #+#    #+#             */
-/*   Updated: 2026/02/01 15:22:54 by ybutkov          ###   ########.fr       */
+/*   Updated: 2026/02/09 16:04:09 by ybutkov          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,5 +19,5 @@ void    Zombie::announce()
 
 Zombie::~Zombie(void)
 {
-    std::cout << name << ", you watch is over" << std::endl;
+    std::cout << name << ", your watch is over" << std::endl;
 }

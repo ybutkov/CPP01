@@ -8,7 +8,6 @@ CXX			= c++
 CXXFLAGS	= -Wall -Wextra -Werror -g -std=c++17 $(INCLUDES) 
 
 SRCS_FILES 	= Zombie.cpp \
-			zombieHorde.cpp \
 			main.cpp
 
 CPP_FILES 	= $(addprefix $(SRC)/, $(SRCS_FILES))
